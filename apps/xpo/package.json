@@ -5,7 +5,8 @@
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
-    "dev": "expo start --ios",
+    "ios": "expo start --ios",
+    "dev": "expo start --android",
     "web": "expo start --web",
     "eject": "expo eject",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .expo"
